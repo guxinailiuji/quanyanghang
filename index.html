@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>全球主要央行组织结构与政策解析</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@0.294.0/dist/umd/lucide-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.294.0/dist/umd/lucide.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'us-blue': '#3C3B6E',
+                        'us-red': '#B22234',
+                        'eu-blue': '#0052B4',
+                        'eu-yellow': '#FFCC00',
+                        'china-red': '#DE2910',
+                        'china-yellow': '#FFDE00',
+                        'uk-blue': '#00247D',
+                        'uk-red': '#CF142B',
+                        'japan-red': '#BC002D',
+                        'india-orange': '#FF9933',
+                        'india-green': '#138808',
+                        'brazil-green': '#009C3B',
+                        'brazil-yellow': '#FFDF00',
+                        'canada-red': '#FF0000'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <div class="bg-gray-100 text-center py-2 text-sm text-gray-600">
+        Built with Flowith Oracle
+    </div>
+    
+    <nav class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="flex flex-wrap items-center justify-between py-3">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-gray-900">央行导航</span>
+                </div>
+                <div class="flex flex-wrap items-center space-x-1 md:space-x-4 mt-2 md:mt-0">
+                    <a href="#intro" class="px-2 py-1 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded">概览</a>
+                    <a href="#fed" class="px-2 py-1 text-sm font-medium text-us-blue hover:bg-blue-50 hover:text-us-red rounded">美联储</a>
+                    <a href="#ecb" class="px-2 py-1 text-sm font-medium text-eu-blue hover:bg-blue-50 hover:text-eu-yellow rounded">欧洲央行</a>
+                    <a href="#pboc" class="px-2 py-1 text-sm font-medium text-china-red hover:bg-red-50 hover:text-china-yellow rounded">中国人民银行</a>
+                    <a href="#boe" class="px-2 py-1 text-sm font-medium text-uk-blue hover:bg-blue-50 hover:text-uk-red rounded">英格兰银行</a>
+                    <a href="#boj" class="px-2 py-1 text-sm font-medium text-japan-red hover:bg-red-50 hover:text-gray-700 rounded">日本银行</a>
+                    <a href="#rbi" class="px-2 py-1 text-sm font-medium text-india-orange hover:bg-orange-50 hover:text-india-green rounded">印度储备银行</a>
+                    <a href="#bcb" class="px-2 py-1 text-sm font-medium text-brazil-green hover:bg-green-50 hover:text-brazil-yellow rounded">巴西央行</a>
+                    <a href="#boc" class="px-2 py-1 text-sm font-medium text-canada-red hover:bg-red-50 hover:text-gray-700 rounded">加拿大银行</a>
+                    <a href="#comparison" class="px-2 py-1 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded">对比分析</a>
+                </div>
+                <div class="flex items-center mt-2 md:mt-0">
+                    <button id="toggleTheme" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 md:px-8 py-8">
+        <section id="intro" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-gray-50 rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
+                <h2 class="text-2xl font-bold mb-4 text-gray-800">全球央行体系概览</h2>
+                <p class="mb-4">央行作为一国货币政策的制定和执行机构，肩负着维护金融稳定、调控通货膨胀和促进经济增长的重要职责。不同国家和地区的央行在组织架构、政策工具和决策机制上各有特色，但都致力于为本国或区域经济提供坚实的货币基础。</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                    <div class="border border-blue-200 rounded-lg p-4 bg-blue-50/30">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-us-blue/10 p-2 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-us-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-us-blue">组织架构</h3>
+                        </div>
+                        <p class="text-gray-600">央行通常设有决策委员会、执行机构和监督机构，以确保货币政策的制定和执行既有专业性又有代表性。</p>
+                    </div>
+                    
+                    <div class="border border-green-200 rounded-lg p-4 bg-green-50/30">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-brazil-green/10 p-2 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-brazil-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-brazil-green">政策工具</h3>
+                        </div>
+                        <p class="text-gray-600">各国央行运用利率政策、公开市场操作、准备金要求等多种工具来调控货币供应和影响市场利率。</p>
+                    </div>
+                    
+                    <div class="border border-red-200 rounded-lg p-4 bg-red-50/30">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-china-red/10 p-2 rounded-md">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-china-red" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                            </div>
+                            <h3 class="ml-3 text-lg font-medium text-china-red">经济影响</h3>
+                        </div>
+                        <p class="text-gray-600">央行政策直接影响利率水平、通货膨胀预期、汇率变动和经济增长，是宏观经济调控的核心工具。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fed" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-us-blue/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-us-blue">美联储 (Federal Reserve)</h2>
+                    <span class="ml-4 px-3 py-1 bg-us-red/10 text-us-red text-xs font-medium rounded-full">美国</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">美联储采用独特的三重架构：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>联邦储备系统董事会</strong>：由7名成员组成，任期14年，由总统提名，参议院批准。</li>
+                                <li><strong>联邦公开市场委员会(FOMC)</strong>：由12名成员组成，包括7名董事会成员和5名地区联邦储备银行行长。</li>
+                                <li><strong>12家地区联邦储备银行</strong>：分布在美国不同地区，负责执行货币政策并监督辖区内的银行。</li>
+                                <li><strong>顾问委员会系统</strong>：包括联邦咨询委员会、社区咨询委员会等，为政策制定提供建议。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>制定货币政策</strong>：维护价格稳定、促进充分就业和适度的长期利率。</li>
+                                <li><strong>监管银行</strong>：监督和监管商业银行和其他金融机构，确保金融系统的安全和稳定。</li>
+                                <li><strong>提供金融服务</strong>：为存款机构、美国政府和外国官方机构提供金融服务。</li>
+                                <li><strong>维护金融稳定</strong>：监测和应对金融系统风险，在危机时期充当"最后贷款人"。</li>
+                                <li><strong>发行货币</strong>：负责美元纸币的发行和流通管理。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>联邦基金利率</strong>：美联储的主要政策工具，影响银行间拆借利率，进而影响整个经济的借贷成本。</li>
+                                <li><strong>公开市场操作</strong>：通过买卖政府证券来调整市场流动性和利率水平。</li>
+                                <li><strong>贴现窗口</strong>：向银行提供短期贷款的机制，利率为贴现率。</li>
+                                <li><strong>准备金要求</strong>：规定银行必须持有的存款准备金比例。</li>
+                                <li><strong>前瞻指引</strong>：通过沟通未来政策意图，引导市场预期。</li>
+                                <li><strong>量化宽松(QE)</strong>：在非常规情况下实施大规模资产购买计划，以降低长期利率。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>联邦公开市场委员会每年召开8次会议，讨论经济形势并决定货币政策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>具有高度的独立性，董事会成员任期长达14年，减少政治影响。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>采用双重使命：维持价格稳定和促进充分就业的双重法定任务。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>高度透明的沟通策略，公布会议记录和经济预测。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">全球影响</h4>
+                                <p class="text-gray-600">作为美元发行者，美联储政策对全球金融市场和其他国家央行决策具有显著溢出效应。利率变动直接影响全球资本流动、新兴市场稳定性和国际贸易融资成本。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecb" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-eu-blue/5 rounded-lg shadow-sm border border-eu-blue/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-eu-blue">欧洲中央银行 (European Central Bank)</h2>
+                    <span class="ml-4 px-3 py-1 bg-eu-yellow/20 text-eu-blue text-xs font-medium rounded-full">欧元区</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">欧洲中央银行具有超国家特性，其架构包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>管理委员会</strong>：最高决策机构，由欧元区各成员国央行行长和欧洲央行执行委员会成员组成。</li>
+                                <li><strong>执行委员会</strong>：负责日常运营，由行长、副行长和四名成员组成，任期八年。</li>
+                                <li><strong>扩展理事会</strong>：包括所有欧盟成员国央行行长，主要协调非欧元区欧盟国家与欧元区的关系。</li>
+                                <li><strong>监督委员会</strong>：负责银行监管，由欧洲央行和国家监管机构代表组成。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>制定和执行欧元区货币政策</strong>：维护欧元区价格稳定是首要目标。</li>
+                                <li><strong>欧元管理</strong>：负责欧元的发行和管理，确保欧元区货币政策的统一执行。</li>
+                                <li><strong>欧元区银行监管</strong>：通过单一监管机制(SSM)监督欧元区重要银行。</li>
+                                <li><strong>外汇操作</strong>：管理欧元区成员国的外汇储备，进行外汇市场干预。</li>
+                                <li><strong>支付系统</strong>：确保欧元区支付系统安全高效运行。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>关键利率</strong>：包括主要再融资利率、边际借贷利率和存款便利利率。</li>
+                                <li><strong>公开市场操作</strong>：包括主要再融资业务、长期再融资业务、微调操作和结构性操作。</li>
+                                <li><strong>常备便利</strong>：提供和吸收隔夜流动性的工具，形成利率走廊。</li>
+                                <li><strong>准备金制度</strong>：要求欧元区银行在所在国央行账户上保持最低准备金。</li>
+                                <li><strong>资产购买计划</strong>：包括公共部门购买计划(PSPP)、覆盖债券购买计划(CBPP)等。</li>
+                                <li><strong>前瞻指引</strong>：传达未来货币政策路径意图，引导市场预期。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>管理委员会每六周召开一次货币政策会议，评估经济发展并决定货币政策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>以维持通胀率在接近但低于2%作为首要目标，形成单一法定目标。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>面临欧元区成员国经济发展不均衡的挑战，需要制定适合整个区域的统一政策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>通过定期新闻发布会和月度公报保持高度透明。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">超国家角色</h4>
+                                <p class="text-gray-600">作为超国家央行，欧洲央行需要平衡不同成员国的经济状况，制定统一货币政策。在欧债危机期间，欧洲央行通过非常规政策工具发挥了关键稳定作用，但同时也面临成员国之间协调的复杂挑战。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pboc" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-china-red/5 rounded-lg shadow-sm border border-china-red/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-china-red">中国人民银行</h2>
+                    <span class="ml-4 px-3 py-1 bg-china-yellow/20 text-china-red text-xs font-medium rounded-full">中国</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">中国人民银行是国务院的组成部门，为正部级单位：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>行长负责制</strong>：实行党委领导下的行长负责制，确保政策执行的统一性。</li>
+                                <li><strong>内部机构</strong>：设有20多个职能部门，包括货币政策司、金融稳定局、支付结算司等。</li>
+                                <li><strong>分支机构</strong>：在全国设有分行、中心支行和支行，形成垂直管理体系。</li>
+                                <li><strong>协调机制</strong>：国务院金融稳定发展委员会办公室设在人民银行，加强金融监管协调。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>制定和执行货币政策</strong>：维护币值稳定，促进经济增长。</li>
+                                <li><strong>宏观审慎管理</strong>：建立双支柱调控框架，防范系统性金融风险。</li>
+                                <li><strong>金融市场监管</strong>：监督管理银行间债券市场、货币市场、外汇市场等。</li>
+                                <li><strong>人民币管理</strong>：发行和管理人民币，推动人民币国际化。</li>
+                                <li><strong>支付体系建设</strong>：统筹国家支付体系建设并实施监管。</li>
+                                <li><strong>金融基础设施</strong>：牵头负责重要金融基础设施规划和监管。</li>
+                                <li><strong>征信体系</strong>：推动社会信用体系建设。</li>
+                                <li><strong>反洗钱</strong>：组织反洗钱和反恐怖融资工作。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>政策利率</strong>：包括存贷款基准利率、公开市场操作利率和中期借贷便利(MLF)利率等。</li>
+                                <li><strong>存款准备金率</strong>：通过差别化存款准备金率调节银行信贷能力。</li>
+                                <li><strong>公开市场操作</strong>：通过回购、逆回购等工具调节市场流动性。</li>
+                                <li><strong>中央银行借贷工具</strong>：包括再贷款、再贴现、常备借贷便利(SLF)等。</li>
+                                <li><strong>宏观审慎评估(MPA)</strong>：从资本和杠杆、资产负债、流动性等多维度评估金融机构风险。</li>
+                                <li><strong>窗口指导</strong>：对金融机构提供政策导向和建议。</li>
+                                <li><strong>汇率政策工具</strong>：实行以市场供求为基础的有管理浮动汇率制度。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>货币政策委员会定期召开会议，研究货币政策执行情况并提出政策建议。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>多目标政策取向，在保持价格稳定的同时，兼顾经济增长、就业和国际收支平衡。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>结构性货币政策工具的创新应用，支持重点领域和薄弱环节发展。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>货币政策、宏观审慎政策和金融监管的协调配合。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">全球角色</h4>
+                                <p class="text-gray-600">作为全球第二大经济体的央行，人民银行政策调整对全球经济和金融市场有重要影响。随着人民币国际化进程的推进，其在国际货币体系中的作用日益增强。在金融科技创新和数字货币领域，人民银行走在了全球央行的前列。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boe" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-uk-blue/5 rounded-lg shadow-sm border border-uk-blue/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-uk-blue">英格兰银行 (Bank of England)</h2>
+                    <span class="ml-4 px-3 py-1 bg-uk-red/10 text-uk-blue text-xs font-medium rounded-full">英国</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">英格兰银行采用三委员会架构：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>董事会</strong>：作为最高领导机构，负责制定组织战略，由5名执行董事（行长和4名副行长）和不超过9名非执行董事组成。</li>
+                                <li><strong>货币政策委员会(MPC)</strong>：负责制定货币政策，确定基准利率水平和资产购买规模。</li>
+                                <li><strong>金融政策委员会(FPC)</strong>：负责宏观审慎监管，识别、监测和减少系统性风险。</li>
+                                <li><strong>审慎监管委员会(PRC)</strong>：负责监管银行、保险公司和主要投资公司。</li>
+                                <li><strong>最高执行团队</strong>：由行长、4名副行长和首席运营官组成。</li>
+                                <li><strong>区域代表处</strong>：设有12个区域代表处，了解各地经济情况。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>货币政策</strong>：维持物价稳定，保持CPI同比增速稳定在2%附近。</li>
+                                <li><strong>金融稳定</strong>：识别和减少英国金融系统风险，维护金融体系的稳定性和弹性。</li>
+                                <li><strong>审慎监管</strong>：监管超过1,500家银行、保险公司和大型投资公司。</li>
+                                <li><strong>货币发行</strong>：发行英镑纸币，确保货币的完整性和公众信心。</li>
+                                <li><strong>支付系统</strong>：监管和促进支付系统的安全与效率。</li>
+                                <li><strong>政府银行</strong>：作为英国政府的银行，提供银行和债务管理服务。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>基准利率</strong>：由货币政策委员会设定，影响金融体系的借贷成本。</li>
+                                <li><strong>量化宽松(QE)</strong>：通过资产购买计划购买英国政府债和合格公司债，降低长期利率。</li>
+                                <li><strong>操作性常备便利</strong>：提供隔夜流动性支持和吸收过剩流动性的工具。</li>
+                                <li><strong>定期融资工具</strong>：通过拍卖方式向银行提供长期融资，支持银行信贷投放。</li>
+                                <li><strong>贴现窗口便利</strong>：在市场压力期间提供流动性支持的工具。</li>
+                                <li><strong>指数化长期回购</strong>：向银行提供更长期限的流动性支持。</li>
+                                <li><strong>或有定期回购便利</strong>：在市场出现显著压力时启动的流动性工具。</li>
+                                <li><strong>前瞻指引</strong>：通过沟通未来政策意图引导市场预期。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>货币政策委员会每年召开8次会议，讨论英国经济发展情况，多数投票决定货币政策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>实施通胀目标制，目标是将通胀率维持在2%。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>委员会成员独立发表意见，会议记录公开，保持决策透明度。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>三大委员会协调配合，同时关注物价稳定、金融稳定和微观监管。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">英国脱欧后的角色</h4>
+                                <p class="text-gray-600">英国脱欧后，英格兰银行面临重新调整与欧盟金融体系关系的挑战。作为全球金融中心伦敦的央行，其政策对国际金融市场有重要影响。英格兰银行在宏观审慎政策创新方面处于全球领先地位，其三委员会架构为其他央行提供了有益借鉴。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="boj" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-japan-red/5 rounded-lg shadow-sm border border-japan-red/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-japan-red">日本银行 (Bank of Japan)</h2>
+                    <span class="ml-4 px-3 py-1 bg-japan-red/10 text-japan-red text-xs font-medium rounded-full">日本</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">日本银行的组织架构主要包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>政策委员会</strong>：作为最高决策机构，由9名成员组成，包括行长、2名副行长和6名来自金融、经济和学术界的外部委员。</li>
+                                <li><strong>执行部门</strong>：总部设有15个业务部门，包括金融机构局、调查统计局、国际局等。</li>
+                                <li><strong>监察室</strong>：对银行内部运营进行监督，确保政策执行的合规性。</li>
+                                <li><strong>分支机构</strong>：在日本全国设有分支机构，收集各地区经济信息并执行央行政策。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>制定货币政策</strong>：维持物价稳定是主要目标，以消费者物价指数(CPI)同比增长2%为基准。</li>
+                                <li><strong>发行与管理货币</strong>：发行日元纸币和硬币，确保货币流通。</li>
+                                <li><strong>确保金融体系稳定</strong>：监测和分析金融系统风险，在必要时提供流动性支持。</li>
+                                <li><strong>提供金融服务</strong>：为金融机构和政府提供资金结算和证券服务。</li>
+                                <li><strong>国际金融合作</strong>：与其他国家央行和国际组织合作，参与国际金融事务。</li>
+                                <li><strong>研究与统计</strong>：收集和分析经济数据，发布经济研究报告。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>负利率政策</strong>：将短期利率维持在-0.1%的水平，鼓励银行放贷而非存款。</li>
+                                <li><strong>收益率曲线控制(YCC)</strong>：控制10年期国债收益率在特定目标附近，影响长期利率。</li>
+                                <li><strong>大规模资产购买</strong>：购买日本国债、交易所交易基金(ETF)和房地产投资信托(REIT)等资产。</li>
+                                <li><strong>市场操作</strong>：通过公开市场操作调节金融市场流动性。</li>
+                                <li><strong>贷款支持计划</strong>：向金融机构提供低成本贷款，支持其向特定领域放贷。</li>
+                                <li><strong>前瞻指引</strong>：明确表达未来货币政策意图，引导市场预期。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>政策委员会每月召开两次会议，决定货币政策方向并发布经济展望报告。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>实施非常规货币政策，采用负利率和收益率曲线控制等创新工具应对长期通缩挑战。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>通过资产购买直接参与金融市场，成为日本ETF和REIT市场的主要投资者。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>政策决定后通过新闻发布会详细解释决策理由，保持透明度。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">应对通缩挑战</h4>
+                                <p class="text-gray-600">日本银行是全球首个采用零利率政策和量化宽松的主要央行，为应对长期通缩挑战积累了丰富经验。其货币政策工具创新对全球央行实践有重要参考价值。同时，长期超宽松政策也带来中央银行资产负债表扩张、金融机构盈利压力等挑战，成为全球央行关注的重要案例。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rbi" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-india-orange/5 rounded-lg shadow-sm border border-india-orange/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-india-orange">印度储备银行 (Reserve Bank of India)</h2>
+                    <span class="ml-4 px-3 py-1 bg-india-green/10 text-india-green text-xs font-medium rounded-full">印度</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">印度储备银行(RBI)的组织架构包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>中央董事会</strong>：最高决策机构，由行长、副行长和中央政府任命的董事组成。</li>
+                                <li><strong>地区董事会</strong>：在孟买、加尔各答、钦奈和新德里设有四个地区董事会，就地区事务向中央董事会提供建议。</li>
+                                <li><strong>专业部门</strong>：设有20多个专业部门，如货币政策部、银行监管部、外汇部等。</li>
+                                <li><strong>咨询委员会</strong>：设有多个技术和咨询委员会，为政策制定提供支持。</li>
+                                <li><strong>管理层次</strong>：由行长领导，副行长负责不同职能领域。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>货币发行</strong>：作为印度唯一的法定货币发行机构，负责印制和流通印度卢比。</li>
+                                <li><strong>制定与执行货币政策</strong>：通过调整政策利率和货币供应，维护价格稳定、促进经济增长，确保货币市场流动性。</li>
+                                <li><strong>银行监管</strong>：监督商业银行、农村银行和合作银行的运营，确保它们遵守银行法规。</li>
+                                <li><strong>外汇管理</strong>：管理印度的外汇储备和国际支付，调节外汇市场，支持印度卢比的稳定性。</li>
+                                <li><strong>支付与结算系统</strong>：监管和促进支付系统，推动无现金经济和支付数字化。</li>
+                                <li><strong>金融包容性</strong>：推动金融服务覆盖偏远地区，支持中小企业融资，实施普惠金融计划。</li>
+                                <li><strong>消费者保护</strong>：确保金融机构遵守消费者权益保护法规，处理消费者投诉。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>回购利率(Repo Rate)</strong>：RBI向商业银行借款时的利率，是主要政策利率。</li>
+                                <li><strong>逆回购利率(Reverse Repo Rate)</strong>：RBI从商业银行吸收流动性时支付的利率。</li>
+                                <li><strong>法定流动比率(SLR)</strong>：商业银行需持有的政府证券或其他合规资产占存款比例。</li>
+                                <li><strong>现金准备比率(CRR)</strong>：商业银行需存放于RBI的存款比例。</li>
+                                <li><strong>公开市场操作</strong>：通过买卖政府证券调节市场流动性。</li>
+                                <li><strong>边际常备融资机制(MSF)</strong>：在资金紧张时期向银行提供紧急流动性。</li>
+                                <li><strong>银行利率</strong>：RBI对商业票据和其他债务工具进行再贴现的利率。</li>
+                                <li><strong>流动性调整便利(LAF)</strong>：通过回购和逆回购操作调节短期流动性。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>货币政策委员会(MPC)每两个月召开一次会议，成员包括RBI行长、副行长、执行董事和三名外部成员。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>采用灵活通胀目标制，将控制通胀作为首要目标，同时兼顾经济增长。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>每季度发布货币政策声明和货币政策报告，提高政策透明度。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>采用多样化政策工具组合，应对印度复杂的经济环境和结构性挑战。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">新兴市场角色</h4>
+                                <p class="text-gray-600">作为重要新兴市场经济体的央行，印度储备银行需要平衡通胀控制、增长支持、汇率稳定和金融包容等多重目标。RBI积极推动数字支付创新，开发统一支付接口(UPI)等基础设施，为其他发展中国家提供了普惠金融的成功案例。同时，它还需应对印度经济高度非正规部门、农村金融服务不足等特殊挑战。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bcb" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-brazil-green/5 rounded-lg shadow-sm border border-brazil-green/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-brazil-green">巴西中央银行 (Banco Central do Brasil)</h2>
+                    <span class="ml-4 px-3 py-1 bg-brazil-yellow/20 text-brazil-green text-xs font-medium rounded-full">巴西</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">巴西中央银行(BCB)的组织架构主要包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>货币政策委员会(COPOM)</strong>：负责制定货币政策并设定短期目标利率，由行长和各领域副行长组成。</li>
+                                <li><strong>行长办公室</strong>：由行长领导，负责协调央行整体工作。</li>
+                                <li><strong>各专业部门</strong>：包括货币政策部、银行监管部、国际关系部、经济研究部等。</li>
+                                <li><strong>地区代表处</strong>：在巴西各主要城市设有代表处，执行央行政策并收集地区经济信息。</li>
+                                <li><strong>咨询委员会</strong>：为政策制定提供专业意见和建议。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>维护价格稳定</strong>：通过实施通胀目标制，控制通货膨胀率在预定目标范围内。</li>
+                                <li><strong>货币发行</strong>：作为巴西雷亚尔的唯一发行机构，负责管理货币供应量。</li>
+                                <li><strong>金融监管</strong>：监督银行和非银行金融机构，确保它们遵守巴西金融法律和监管标准。</li>
+                                <li><strong>外汇管理</strong>：管理国家外汇储备，制定外汇政策，监督外汇市场，确保巴西雷亚尔的稳定性。</li>
+                                <li><strong>支付系统</strong>：推动巴西支付系统现代化，提升支付效率和普惠性。</li>
+                                <li><strong>金融稳定</strong>：监控和管理系统性金融风险，确保金融体系的稳定性和韧性。</li>
+                                <li><strong>公共债务管理</strong>：协助财政部管理政府债务。</li>
+                                <li><strong>金融包容</strong>：促进金融服务的普及，尤其是对低收入人群和偏远地区。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>SELIC利率</strong>：巴西的主要政策利率，由货币政策委员会设定，影响整个经济体系的借贷成本。</li>
+                                <li><strong>通胀目标制</strong>：设定中期通胀目标和可接受的波动区间，作为货币政策的锚。</li>
+                                <li><strong>公开市场操作</strong>：通过买卖政府证券调节市场流动性和利率。</li>
+                                <li><strong>准备金要求</strong>：调整金融机构必须保持的准备金比例，影响信贷创造能力。</li>
+                                <li><strong>外汇干预</strong>：在外汇市场进行操作，稳定巴西雷亚尔汇率。</li>
+                                <li><strong>货币互换协议</strong>：与其他国家央行建立货币互换协议，提供外汇流动性支持。</li>
+                                <li><strong>宏观审慎措施</strong>：实施各类宏观审慎政策工具，防范金融体系积累过度风险。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>COPOM通常每6-8周召开一次会议，评估经济状况并决定政策利率水平。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>实施正式的通胀目标制，当前目标是将通胀率保持在国家货币委员会设定的目标范围内。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>每次会议后发布详细的政策声明，解释决策理由和经济前景评估。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>需要频繁应对国际资本流动和商品价格波动对巴西经济的影响。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">拉丁美洲地区意义</h4>
+                                <p class="text-gray-600">作为拉美最大经济体的央行，巴西中央银行的政策对整个地区有重要影响。通过多年努力，巴西建立了高效的通胀目标制框架，有效控制了曾经困扰巴西的高通胀问题。在应对商品价格波动、国际资本流动和货币大幅贬值等新兴市场典型挑战方面积累了丰富经验。近年来，巴西央行在数字金融创新和普惠金融方面也取得显著成就。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boc" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-canada-red/5 rounded-lg shadow-sm border border-canada-red/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-canada-red">加拿大银行 (Bank of Canada)</h2>
+                    <span class="ml-4 px-3 py-1 bg-canada-red/10 text-canada-red text-xs font-medium rounded-full">加拿大</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">加拿大银行的组织架构包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>董事会</strong>：负责银行的整体管理，由行长、高级副行长、12位外部董事和财政部副部长组成。</li>
+                                <li><strong>管理委员会</strong>：负责货币政策决策，由行长、高级副行长和其他副行长组成。</li>
+                                <li><strong>职能部门</strong>：包括金融市场部、金融风险部、研究部、国际部、银行操作部、货币与金融分析部等。</li>
+                                <li><strong>区域办公室</strong>：在温哥华、卡尔加里、多伦多、蒙特利尔和哈利法克斯设有地区办公室，在多伦多和蒙特利尔设有操作室，在纽约设有办事处。</li>
+                                <li><strong>任命机制</strong>：行长和高级副行长由董事会任命，任期7年；外部董事由财政部任命，任期3年。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green
+-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>货币政策</strong>：通过维持稳定和可预测的低通货膨胀来促进经济稳健运行，提高人民生活水平。</li>
+                                <li><strong>纸币发行</strong>：负责加拿大纸币的设计、安全、发行和替换。</li>
+                                <li><strong>金融体系</strong>：积极推进加拿大金融体系及国际金融体系的安全、稳健、有效运行。</li>
+                                <li><strong>资金管理</strong>：为联邦政府、银行及其他客户提供高质量、有效的资金管理服务。</li>
+                                <li><strong>零售支付监管</strong>：根据《零售支付活动法》监督支付服务提供商。</li>
+                                <li><strong>公共债务管理</strong>：作为加拿大政府的"财政代理人"，管理其公共债务计划和外汇储备。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>隔夜利率目标</strong>：加拿大银行的主要政策工具，影响加拿大主要金融机构之间的隔夜借款利率。</li>
+                                <li><strong>操作区间</strong>：为隔夜利率设定50个基点的操作区间，上限为中央银行利率，下限为加拿大银行对金融机构存款支付的利率。</li>
+                                <li><strong>公开市场操作</strong>：通过特别购买和再出售协议(SPRAs)或出售和再购买协议(SRAs)影响市场隔夜利率。</li>
+                                <li><strong>常备流动性工具</strong>：向金融机构提供和吸收隔夜流动性。</li>
+                                <li><strong>前瞻指引</strong>：通过沟通未来政策路径的意图，引导市场预期。</li>
+                                <li><strong>通胀目标制</strong>：与政府联合确定将通胀率维持在1%-3%的目标区间内。</li>
+                                <li><strong>突发事件工具</strong>：在金融危机期间使用的非常规政策工具，如大规模资产购买计划。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>管理委员会每六周宣布一次利率决定，每年总共8次。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>自1991年以来实施通胀目标制，每5年与政府联合更新一次通胀控制框架。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>每季度发布《货币政策报告》，并向加拿大议会作陈述解释，加强与公众的沟通。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>行长任期7年，确保政策的独立性和连续性，减少政治干预。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">经济特点与挑战</h4>
+                                <p class="text-gray-600">作为资源密集型开放经济体的央行，加拿大银行需要应对商品价格波动对经济的影响。与美国经济高度联系下，需要平衡独立政策与外部环境协调的挑战。加拿大在通胀目标制实施方面表现出色，为全球央行提供了良好范例。该行在政策沟通透明度方面也处于全球领先地位，通过明确的信息披露增强市场信心。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bundesbank" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-black/5 rounded-lg shadow-sm border border-yellow-400/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900">德国联邦银行 (Deutsche Bundesbank)</h2>
+                    <span class="ml-4 px-3 py-1 bg-yellow-400/20 text-gray-900 text-xs font-medium rounded-full">德国</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">德国联邦银行的组织架构主要包括：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>执行委员会与监事会</strong>：执行委员会负责日常决策，监事会监督银行运作。</li>
+                                <li><strong>行长任命</strong>：由德国总统任命，任期较长，确保政策独立性。</li>
+                                <li><strong>决策机构</strong>：作为欧洲央行体系的成员，参与欧元区货币政策的制定和执行。</li>
+                                <li><strong>分支机构</strong>：总部设在法兰克福，在德国各地设有分支机构，确保政策执行和监管覆盖全国。</li>
+                                <li><strong>专业部门</strong>：设有多个专业部门，负责不同领域的工作，如货币政策、金融稳定、银行监管等。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>参与欧元政策</strong>：作为欧洲央行体系的重要成员，参与制定和执行欧元区货币政策。</li>
+                                <li><strong>维护物价稳定</strong>：传统上高度重视通胀控制和价格稳定，为欧元区货币政策文化奠定基础。</li>
+                                <li><strong>金融监管</strong>：与德国联邦金融服务监管局(BaFin)合作，监管德国金融机构。</li>
+                                <li><strong>金融稳定</strong>：识别和应对可能影响德国金融稳定的系统性风险。</li>
+                                <li><strong>管理支付系统</strong>：确保德国和欧元区支付系统高效安全运行。</li>
+                                <li><strong>国际合作</strong>：代表德国参与国际金融组织和全球经济治理。</li>
+                                <li><strong>经济研究和统计</strong>：提供经济分析和统计数据，支持政策制定。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>欧洲央行框架</strong>：在欧元区统一货币政策框架下运作，执行欧洲央行决定的政策。</li>
+                                <li><strong>银行监管</strong>：评估德国银行机构的偿付能力、流动性和风险管理体系。</li>
+                                <li><strong>市场操作</strong>：执行欧洲央行决定的开放市场操作，调节德国国内市场流动性。</li>
+                                <li><strong>研究与分析</strong>：提供深入的经济和金融分析，影响欧元区政策制定。</li>
+                                <li><strong>沟通策略</strong>：通过公开讲话、出版物和政策声明影响市场预期和公众理解。</li>
+                                <li><strong>审慎监管工具</strong>：实施各类审慎监管措施，确保德国银行体系稳健。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>作为欧元区成员，货币政策独立性有限，主要执行欧洲央行的决策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>强调价格稳定，保持审慎的货币政策立场，影响欧洲央行整体政策倾向。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>德国联邦银行行长作为欧洲央行管理委员会成员，参与欧元区货币政策决策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>通过月度报告和研究文章表达政策立场，对欧元区整体政策走向有重要影响。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">欧元区影响力</h4>
+                                <p class="text-gray-600">作为欧元区最大经济体的央行，德国联邦银行对欧洲央行政策具有显著影响力。其传统稳健货币政策理念深刻塑造了欧元区货币政策文化，特别是对通胀控制的高度重视。在欧债危机等关键时期，其政策立场对危机解决方案产生重要影响。德国联邦银行的审慎监管协助德国银行体系保持相对稳健，为其他欧元区国家提供了借鉴。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="banque" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-red-500/20 p-6">
+                <div class="flex items-center mb-6">
+                    <h2 class="text-2xl font-bold" style="color: #002654;">法兰西银行 (Banque de France)</h2>
+                    <span class="ml-4 px-3 py-1 bg-red-500/10 text-red-600 text-xs font-medium rounded-full">法国</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="col-span-1 md:col-span-2">
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                组织架构
+                            </h3>
+                            <p class="mb-3">法兰西银行采用三层组织结构：</p>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>国家信贷委员会</strong>：作为决策机构，由财政经济部长、法兰西银行总裁及经济、金融、商会和工会等各界代表组成，负责银行注册和审查银行资质。</li>
+                                <li><strong>法兰西银行理事会</strong>：作为执行机构，由十三人组成，包括由总统任命的一名总裁和两名副总裁，以及由政府任命的九名专业人士和一名法兰西银行职工代表。</li>
+                                <li><strong>银行管理委员会</strong>：作为监督机构，对法兰西银行的工作进行监督，委员会成员列席理事会，对理事会的决议可提出异议。</li>
+                                <li><strong>欧元体系成员</strong>：1999年起加入欧洲央行体系，货币政策决策权移交欧洲央行。</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                主要职能
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>欧元政策参与</strong>：作为欧元区成员，参与制定和执行欧元区货币政策。</li>
+                                <li><strong>银行监管</strong>：监督法国金融机构，确保其符合监管标准和规定。</li>
+                                <li><strong>金融稳定</strong>：监测和应对可能影响法国金融体系的风险，维护国内金融稳定。</li>
+                                <li><strong>货币管理</strong>：负责法国境内的欧元发行和回笼，确保货币流通顺畅。</li>
+                                <li><strong>国库功能</strong>：为法国政府提供银行服务，管理政府账户和债务。</li>
+                                <li><strong>国际合作</strong>：参与国际金融组织和全球金融治理，代表法国与其他央行合作。</li>
+                                <li><strong>经济研究</strong>：提供经济分析和研究，为政策制定提供依据。</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                                货币政策工具
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li><strong>欧元框架内工具</strong>：作为欧元区成员，遵循欧洲央行统一政策框架，执行欧洲央行决定的政策。</li>
+                                <li><strong>国内金融监管</strong>：审查和监督法国金融机构资质和运营，确保金融体系稳定。</li>
+                                <li><strong>流动性管理</strong>：调节法国国内金融市场流动性，支持欧洲央行政策在法国的有效实施。</li>
+                                <li><strong>国际协调</strong>：管理与外国央行和国际金融机构的协定，促进国际金融合作。</li>
+                                <li><strong>研究与分析</strong>：提供经济和金融分析，支持欧元区政策制定和法国国内金融监管。</li>
+                                <li><strong>沟通工具</strong>：通过公开讲话、出版物和政策声明解释欧洲央行政策，影响市场预期。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">政策决策特点</h3>
+                            <ul class="space-y-3">
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>在欧元区框架下，直接货币政策独立性有限，主要执行欧洲央行决策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>法兰西银行总裁作为欧洲央行管理委员会成员，参与欧元区货币政策决策。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>法兰西银行理事会决定钞票的发行和回笼，决定贴现率、干预利率和放款利率等。</span>
+                                </li>
+                                <li class="flex">
+                                    <span class="inline-flex items-center justify-center h-6 w-6 rounded-full bg-blue-100 text-blue-800 mr-3 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span>国家信贷委员会作为金融政策决策机构，负责银行注册，审查银行的各项资质。</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="mt-6">
+                                <h4 class="font-medium mb-2">欧元区角色</h4>
+                                <p class="text-gray-600">作为欧元区第二大经济体的央行，法兰西银行对欧洲央行政策有显著发言权。虽然在欧元框架下直接货币政策独立性有限，但通过参与欧洲央行决策和在国内实施欧元区政策，法兰西银行在欧洲货币联盟中扮演着关键角色。通过金融监管维护法国金融体系的稳定与健康，同时积极参与国际金融合作，提升法国在全球金融治理中的影响力。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="mb-16">
+            <div class="bg-gradient-to-br from-white to-gray-100 rounded-lg shadow-sm border border-gray-200 p-6">
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">全球央行对比分析</h2>
+                
+                <div class="overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead>
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-50">央行</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-50">组织特点</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-50">核心政策目标</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-50">特色政策工具</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-us-blue">美联储</td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>独特的三重架构</li>
+                                            <li>混合公私结构</li>
+                                            <li>较高独立性</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>价格稳定</li>
+                                            <li>充分就业</li>
+                                            <li>适度长期利率</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>联邦基金利率</li>
+                                            <li>量化宽松</li>
+                                            <li>前瞻指引</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="bg-eu-blue/5">
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-eu-blue">欧洲央行</td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>超国家央行</li>
+                                            <li>三层治理结构</li>
+                                            <li>多国协调机制</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>通胀率接近但低于2%</li>
+                                            <li>欧元区金融稳定</li>
+                                            <li>欧元统一管理</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>关键利率组合</li>
+                                            <li>资产购买计划</li>
+                                            <li>定向长期再融资操作</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-china-red">中国人民银行</td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>政府部门地位</li>
+                                            <li>多职能综合性机构</li>
+                                            <li>垂直管理体系</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>币值稳定</li>
+                                            <li>经济增长支持</li>
+                                            <li>金融风险防范</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>差别化准备金率</li>
+                                            <li>结构性货币政策工具</li>
+                                            <li>宏观审慎评估(MPA)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="bg-uk-blue/5">
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-uk-blue">英格兰银行</td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>三委员会架构</li>
+                                            <li>功能分离设计</li>
+                                            <li>区域代表网络</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>2%通胀目标</li>
+                                            <li>金融稳定</li>
+                                            <li>审慎监管</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>基准利率</li>
+                                            <li>量化宽松</li>
+                                            <li>贴现窗口便利</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-japan-red">日本银行</td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>政策委员会核心</li>
+                                            <li>完善部门设置</li>
+                                            <li>较高独立性</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>2%通胀目标</li>
+                                            <li>金融体系稳定</li>
+                                            <li>经济增长支持</li>
+                                        </ul>
+                                    </td>
+                                    <td class="px-6 py-4 text-sm text-gray-500">
+                                        <ul class="list-disc pl-5 space-y-1">
+                                            <li>负利率政策</li>
+                                            <li>收益率曲线控制</li>
+                                            <li>大规模资产购买</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="mt-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">全球央行趋势分析</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="border border-us-blue/20 rounded-lg p-5 bg-blue-50/30">
+                            <h4 class="font-medium text-lg mb-3 text-us-blue">政策框架演变</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li>通胀目标制已成为全球主流央行的标准框架，但应用方式各有差异</li>
+                                <li>央行职能从单一货币政策向金融稳定与宏观审慎管理扩展</li>
+                                <li>后金融危机时代，非常规货币政策工具成为标准政策组合的一部分</li>
+                                <li>数字货币和金融科技监管成为新兴政策领域</li>
+                            </ul>
+                        </div>
+                        <div class="border border-eu-blue/20 rounded-lg p-5 bg-blue-50/20">
+                            <h4 class="font-medium text-lg mb-3 text-eu-blue">技术创新与数字化</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li>欧洲央行在数字货币和金融科技方面进行了创新，如数字欧元项目。</li>
+                                <li>中国人民银行在数字货币领域取得了显著进展，如数字人民币的研发和试点。</li>
+                                <li>英格兰银行也在探索数字货币的可能性，如央行数字货币(CBDC)项目。</li>
+                                <li>日本银行在金融科技方面进行了多项研究，如区块链技术在金融领域的应用。</li>
+                            </ul>
+                        </div>
+                        <div class="border border-china-red/20 rounded-lg p-5 bg-red-50/20">
+                            <h4 class="font-medium text-lg mb-3 text-china-red">政策实施差异</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li>发达经济体央行面临长期低通胀与低增长挑战，政策空间有限</li>
+                                <li>新兴市场央行需平衡增长、通胀与汇率多重目标，政策灵活性更高</li>
+                                <li>小型开放经济体央行更关注外部溢出效应和资本流动管理</li>
+                                <li>资源密集型经济体央行需应对商品价格周期波动带来的特殊挑战</li>
+                            </ul>
+                        </div>
+                        <div class="border border-japan-red/20 rounded-lg p-5 bg-red-50/10">
+                            <h4 class="font-medium text-lg mb-3 text-japan-red">未来挑战与方向</h4>
+                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
+                                <li>央行数字货币(CBDC)研发与实施成为全球央行共同关注的前沿领域</li>
+                                <li>气候变化相关金融风险逐渐纳入央行政策考量范围</li>
+                                <li>增强政策框架弹性，以应对更加频繁的全球性冲击和危机</li>
+                                <li>金融数字化与非银行金融中介兴起对传统货币政策传导带来挑战</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-gray-400">全球央行组织结构与政策解析</p>
+                </div>
+                <div>
+                    <p class="text-gray-400">by 不霁何虹 反关财经</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        window.addEventListener("wheel", (e)=> {
+            const isPinching = e.ctrlKey
+            if(isPinching) e.preventDefault()
+        }, { passive: false })
+    </script>
+</body>
+</html>
